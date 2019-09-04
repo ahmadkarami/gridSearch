@@ -2,7 +2,7 @@
 
 this module includes one method find_hyper_params(train_set, target, MLAs, grid_params). we can find appropriate hyper parameters of machine learning algorithm according to given data set.
 
-train_set is our data set cleaned train set
+train_set is our data set cleaned train set<br>
 target is our data set target
 MLAs is a list of tuple of machine learning algorithm like this :  [('abc', AdaBoostClassifier()),('bc', BaggingClassifier())]
 grid_params is list of dictionary of possible hyper parameter of machine learning algorithm respectively to MLAs like this:
